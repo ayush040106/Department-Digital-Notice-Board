@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+frontend/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploaded files (keep .gitkeep)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Local MongoDB memory server cache
+.mongodb-binaries/
+backend/.data/
+
+# OS files
+.DS_Store
+Thumbs.db
