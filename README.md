@@ -172,3 +172,20 @@ npm test
 - `GET /api/notices/:id/attachment` — Download notice PDF attachment
 - `GET/POST/PUT/DELETE /api/users` — Manage Faculty & Student accounts (Admin only)
 - `GET /api/dashboard/stats` — Role-scoped dashboard statistics
+## Live Deployment
+
+**Live Website:** https://department-digital-notice-board.onrender.com
+
+## Demo Login Credentials
+
+All usernames below are college email addresses.
+
+| Role | Username | Password |
+|---|---|---|
+| Admin | admin@college.edu | Admin@123 |
+| Faculty (CSE) | faculty.cse@college.edu | Faculty@123 |
+| Faculty (ECE) | faculty.ece@college.edu | Faculty@123 |
+| Faculty (ME) | faculty.me@college.edu | Faculty@123 |
+| Student (CSE) | student.cse@college.edu | Student@123 |
+| Student (ECE) | student.ece@college.edu | Student@123 |
+| Student (ME) | student.me@college.edu | Student@123 |
