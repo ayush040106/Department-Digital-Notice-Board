@@ -17,7 +17,12 @@ export default function Header({ onMenuClick, pageTitle }) {
           <Menu className="w-5 h-5" />
         </button>
         <div className="min-w-0">
-          <h2 className="text-lg sm:text-xl font-bold text-navy-950 truncate">{pageTitle}</h2>
+          <p className="text-[11px] font-semibold uppercase tracking-wider text-indigo-600 truncate">
+            ABESEC Ghaziabad
+          </p>
+          <h2 className="text-base sm:text-lg font-bold text-navy-950 truncate leading-tight">
+            {pageTitle}
+          </h2>
         </div>
       </div>
 
